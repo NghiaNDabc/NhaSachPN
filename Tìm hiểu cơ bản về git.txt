@@ -1,0 +1,56 @@
+Các lệnh git cơ bản
+1. git config (Cấu hình git)
+- Thiết lập git cho cá nhân
+- Câu lệnh
+git config --global user.name="username"
+git config --global user.email="email"
+- ví dụ để config cho user mới
+git config --global user.name="dttmai1412"
+git config --global user.email="dttmai1412@gmail.com"
+2. git init
+- Khởi tạo một kho chứa (reponsitory) mới hoặc đã có
+- Câu lệnh
+git init
+- Sau khi chạy xong câu lệnh sẽ tạo file .git
+3. git add
+- Lệnh này sẽ đề xuất những thay đổi (thêm vào chỉ mục Index).
+- Câu Lệnh
+git add ten_file
+
+hoặc
+git add .
+(Lệnh này add tất cả các file đang thay đổi)
+4. git commit
+- Sau lệnh git add, cần sử dụng câu lệnh Commit để đây thông tin thay đổi lên Local Respository
+- Câu lệnh:
+git commit -m "Ghi chu commit"
+5. git status
+- Kiểm tra xem trạng thái của Commit
+- Câu lệnh:
+git status
+6. git remote
+- add remote mới
+- Câu Lệnh
+git remote add [remote_url]
+- Kiểm tra xem đã kết nối reponsitory của mình đến máy chủ remote chưa - Câu Lệnh
+git remote -v
+7. git push
+- Nếu đã add và commit những thay đổi và muốn đẩy lên server remote
+- Câu Lệnh
+git push origin [ten_nhanh]
+- vi du:
+git push origin master
+- Lúc này toàn bộ đã đc đưa lên server remote ở nhánh master(nhánh mặc định khi tạo reponsitory)
+Quy trình làm việc project mới với github
+Tạo mới reponsitory ở github
+git init
+git add .
+git commit -m "ghi chu commit"
+git remote add origin [remote url]
+git push origin [ten nhanh chinh] (thường là master)
+
+Quy trình làm việc với project đã có với github
+git add . hoặc git add [ten_file_nao_do]
+git commit -m "ghi chu commit"
+git push origin [ten nhanh chinh] (thường là master)
+
