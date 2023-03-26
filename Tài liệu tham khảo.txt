@@ -1,6 +1,6 @@
-1.Tài liệu 1: https://www.freecodecamp.org/news/learn-web-development-from-harvard-university-cs50/?
-              fbclid=IwAR3RoJ_mSz9mABJ3iDMkzb2sZxFe_WvUrtFHZGdf6Ch2tRJ9CARQSZu8b-M
+1.Tài liệu 1: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
 2.Tài liệu 2: https://blog.hubspot.com/website/center-div-css?fbclid=IwAR0B6xEpcpcV8JJnND1jzKN-
               nBqBbKehIsmCYlXcLzghpKPUAM6c8r3BOZ4
 3.Tài liệu 3: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267
               cc91/?fbclid=IwAR1dISGH070R6Dkvqi2D0AaZxO4hdJiG3HHnvxNSWKp8ol1W3lp1QFLT-Eo
+4. Tài liệu 4: https://frontendmasters.com/guides/front-end-handbook/2019/#3.1

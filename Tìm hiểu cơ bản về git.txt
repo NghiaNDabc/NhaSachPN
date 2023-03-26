@@ -54,3 +54,5 @@ git add . hoặc git add [ten_file_nao_do]
 git commit -m "ghi chu commit"
 git push origin [ten nhanh chinh] (thường là master)
 
+git pull : cập nhật code trên dự án ( đã được chỉnh sửa ) về máy
+
