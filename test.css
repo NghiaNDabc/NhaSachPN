@@ -5,6 +5,10 @@
     padding: 0;
     list-style-type: none;
 }
+body{
+    background-image: url(./picture/brcute.jpg);
+    background-size: 200px;
+}
 .header{
     background-color: chartreuse;
 }
@@ -25,7 +29,14 @@
 
 .content{
     background-color: aqua;
-    height: 600px;
+    width: 100%;
+    height: 267px;
+    background-image: linear-gradient(120deg,rgba(12,36,94,0.4),rgba(198, 31, 56, 0.4)), url(https://i.vietgiaitri.com/2020/3/20/lo-anh-idol-gioi-tre-le-bao-cung-dong-bon-bi-bat-vi-su-dung-chat-kich-thich-f24-4774940.png);
+    background-repeat: no-repeat;
+    background-size:200px;
+}
+img{
+    width: 200px;
 }
 .box{
     position: relative;
