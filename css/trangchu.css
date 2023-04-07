@@ -17,6 +17,7 @@
     justify-content: space-between;
 }
 .button-slide{
+    display: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -28,6 +29,10 @@
 }
 .button-slide:hover{
     background-color: rgba(120, 251, 98,0.5);
+}
+.slider:hover .button-slide{
+    display: block;
+
 }
 .slider
 {   

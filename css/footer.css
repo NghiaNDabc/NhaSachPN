@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+.footer{
+    background-color: #EFEFEF;
+    height:426px ;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.row{
+    height: 426px;
+    width: 1200px;
+    margin: auto;
+}
+.footer .row{
+    padding-top: 30px;
+}
+/* dien email */
+.footer-input-container{
+    width: 590px;
+    margin: auto;
+    height: 65px;
+}
+.footer .text-footer-input-mail{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.input-email{
+    border: 0;
+    width: 562px;
+    height: 28px;
+    padding: 4px 3px;
+    border-color: rgba(255,153,0,0.8);
+    
+    outline: none;
+}
+.input-email:focus{
+    border: 1px solid #ff6040;
+}
+.button-input-email{
+    width: 28px;
+    height: 28px;
+    margin-left: -4px;
+    background-color: rgba(255,153,0,0.8);
+    border: none;
+    cursor: pointer;
+}
+.button-input-email:hover{
+    background-color: #f90;
+}
+/* dien email */
+
+/* meunu thong tin */
+.footer .caption-footer-menu{
+    width: 290px;
+
+}
+.footer .footer-infomation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.footer .footer-menu ul{
+    list-style-type: none; 
+}
+.footer .footer-menu ul li{
+    height: 25px;
+    padding: 2px 0;
+}
+.footer .footer-menu ul li:first-child{
+    font-weight: 600;
+    font-size: 18px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #b6b2b2;;
+    margin-bottom: 15px;
+}
+.footer .footer-menu ul a{
+    text-decoration: none;
+    color: black;
+    line-height: 25px
+}
+.footer .footer-menu ul a:hover{
+    color: #f90;
+}
+
+.footer .footer-menu ul li.social-media{
+    height: 32px;
+}
+.footer .footer-menu ul li.social-media a{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #cc4125;
+}
+.footer .footer-menu ul li.social-media a:hover{
+    background-color: #f90;
+    color: black;
+}
+.footer .footer-menu ul li.verify-bocongthuong{
+    height: 60px;
+}
+.footer .footer-menu ul li.verify-bocongthuong a:hover{
+    opacity: 0.8;
+}
+/* menu thong tin */
+
+/* footer copyright */
+.footer-copyright{
+    text-align: center;
+    background-color: rgba(255,153,0,0.4);
+    height: 55.6px;
+    padding: 5px 0px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1190px;
+    margin: 50px auto 0 auto;
+
+}
+
+/* foooter copyright*/
