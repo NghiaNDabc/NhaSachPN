@@ -6,12 +6,15 @@
     /* border: 1px solid black; */
 }
 /* slide */
+body{
+    font-size: 62.5%;
+}
 .row{
     height: 426px;
     width: 1200px;
+    margin: auto;
 }
 .content-slide .row{
-    margin: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -24,11 +27,11 @@
     text-align: center;
     line-height: 40px;
     /* align-items: center; */
-    background-color: rgb(120, 251, 98);
+    background-color: rgba(120, 251, 98,0.5);
     transition: all 0.5s ease;
 }
 .button-slide:hover{
-    background-color: rgba(120, 251, 98,0.5);
+    background-color: rgba(120, 251, 98,1);
 }
 .slider:hover .button-slide{
     display: block;
@@ -90,4 +93,28 @@
 }
 
 /* slide */
+
+/* menu dưới slide */
+.slide-menu{
+    height: 165px;
+    /* background-color: red; */
+    
+}
+.slide-menu .row{
+    display: flex;
+    justify-content: space-between;
+}
+.slide-menu-box{
+    height: 135px;
+    width: 135px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.slide-menu-box img{
+    border: 50%;
+}
+.slide-menu-box img:hover{
+    opacity:0.85 ;
+}
+/* menu dưới slide */
 

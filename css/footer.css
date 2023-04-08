@@ -4,6 +4,9 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 } 
+body{
+    font-size: 62.5%;
+}
 .footer{
     background-color: #EFEFEF;
     height:426px ;
@@ -25,7 +28,7 @@
 }
 .footer .text-footer-input-mail{
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 1.4em;
 }
 .input-email{
     border: 0;
@@ -65,14 +68,16 @@
 }
 .footer .footer-menu ul{
     list-style-type: none; 
+    
 }
 .footer .footer-menu ul li{
     height: 25px;
     padding: 2px 0;
+    font-size: 1.6em;
 }
 .footer .footer-menu ul li:first-child{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8em;
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #b6b2b2;;
@@ -96,7 +101,7 @@
     height: 32px;
     width: 32px;
     line-height: 32px;
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     background-color: #cc4125;
 }
@@ -118,7 +123,7 @@
     background-color: rgba(255,153,0,0.4);
     height: 55.6px;
     padding: 5px 0px;
-    font-size: 16px;
+    font-size: 1.6em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
