@@ -87,6 +87,9 @@ header{
 .icon_con :hover{
     color: #cc4125;
 }
+.nav{
+    z-index: 1;
+}
 .nav>ul{
     display: flex;
     justify-content: space-around;
@@ -103,7 +106,7 @@ header{
     padding: 0px 110px;
     font-size: 16px;
 }
-.cha>a:hover{
+.cha:hover{
     background-color: #e69138;
 }
 
