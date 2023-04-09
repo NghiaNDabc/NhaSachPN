@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: 'Roboto', sans-serif;
 } 
 body{
     font-size: 62.5%;
@@ -28,7 +29,7 @@ body{
 }
 .footer .text-footer-input-mail{
     margin-bottom: 5px;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .input-email{
     border: 0;
@@ -73,7 +74,7 @@ body{
 .footer .footer-menu ul li{
     height: 25px;
     padding: 2px 0;
-    font-size: 1.6em;
+    font-size: 1.35em;
 }
 .footer .footer-menu ul li:first-child{
     font-weight: 600;
@@ -101,7 +102,7 @@ body{
     height: 32px;
     width: 32px;
     line-height: 32px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     background-color: #cc4125;
 }
@@ -123,7 +124,7 @@ body{
     background-color: rgba(255,153,0,0.4);
     height: 55.6px;
     padding: 5px 0px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
