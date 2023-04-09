@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    border-bottom: solid 2px #cc4125;
+}
+.row_cha{
+    display: flex;
+    margin-left: 80px;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+.row_con{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.row_con a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    margin-left: 60px;
+    margin-top:10px;
+}
+.row_con a:hover{
+    color: red;
+}
+.logo{
+    margin: 5px;
+}
+.hotline{
+    display: flex;
+    margin: 25px;
+}
+.chu_1{
+    margin-left: 8px;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+}
+.search input{
+    width: 300px;
+    height: 43px;
+    padding: 7px 30px 7px 5px;
+    border:solid 1px #ff6040;
+}
+.search button{
+    padding: 14px 14px 13px;
+    background: #cc4125;
+    border: #cc4125;
+    color: black;
+    height: 43px;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background: #f90;
+}
+.icon{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #434343;
+}
+.icon_con i{
+    font-size: 36px;
+    margin-right:20px ;
+}
+.icon_con{
+    font-size: 12px;
+    cursor: pointer;
+}
+.icon_con :hover{
+    color: #cc4125;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #cc4125;
+    height: 45px;
+}
+.cha>a{
+    text-decoration: none;
+    line-height: 45px;
+    color: #efefef;
+    font-weight: 550;
+    display: inline-block;
+    padding: 0px 110px;
+    font-size: 16px;
+}
+.cha>a:hover{
+    background-color: #e69138;
+}
+
+.cha{
+    position: relative;
+}
+.con{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    width: 354px;
+}
+.con a{
+    text-decoration: none;
+    color: #434343;
+    line-height: 40px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.con a:hover{
+    color: red;
+}
+.cha:hover .con{
+    display: block;
+}
