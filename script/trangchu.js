@@ -26,3 +26,13 @@ preBtn.addEventListener('click',preSlide);
 nextBtn.addEventListener('click',nextSlide);
 
 setInterval(nextSlide,2000);
+
+
+var userIcon  = document.querySelector('.userIcon');
+var myAccount = document.querySelector('.my-account')
+function showUser(){
+    if(myAccount.style.display === 'none')
+      myAccount.style.display = 'block'
+      else myAccount.style.display = 'none'
+}
+userIcon.addEventListener('click',showUser)

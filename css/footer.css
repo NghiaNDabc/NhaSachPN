@@ -32,12 +32,10 @@ body{
     font-size: 1.2em;
 }
 .input-email{
-    border: 0;
+    border: 1px solid rgba(255,153,0,0.8) ;
     width: 562px;
     height: 28px;
     padding: 4px 3px;
-    border-color: rgba(255,153,0,0.8);
-    
     outline: none;
 }
 .input-email:focus{
@@ -129,7 +127,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     width: 1190px;
-    margin: 50px auto 0 auto;
+    margin: 40px auto 0 auto;
 
 }
 

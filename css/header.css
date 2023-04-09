@@ -84,9 +84,103 @@ header{
     font-size: 12px;
     cursor: pointer;
 }
-.icon_con :hover{
+.icon_con:hover>i.fa-user{
     color: #cc4125;
 }
+/* my accont */
+.icon-con{
+    position: relative;
+}
+.my-account{
+    height: 225px;
+    display: none;
+    margin-top: 5px;
+    z-index: 2;
+    background-color: white;
+    position: absolute;
+    width: 291px;
+    border: 1px solid rgba(255,153,0,0.8) ;
+    padding: 10px 15px;
+}
+.my-account a{
+    text-decoration: none;  
+    color: #434343;
+    
+}
+.account-infor{
+    height: 50px;
+    border-bottom: 1px solid #b6b2b2;
+}
+.account-infor p{
+    line-height: 20px;
+}
+.account-input h4{
+    font-size: 14px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.account-input input, .account-input button{
+    outline: none;
+    height: 31px;
+}
+.account-input input{
+    border: 1px solid rgba(255,153,0,0.8) ;
+    text-indent: 2px;
+    line-height: 30px;
+    width: 231px;
+}
+.my-account a:hover{
+    color: #f90;
+}
+.account-input>div{
+    height: 31px;
+    display: flex;
+}
+.account-input button{
+    border: none;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    font-size: 8px;
+    background-color: #f90;
+    cursor: pointer;
+}
+.account-input button i{
+    line-height: 31px;
+    width: 31px;
+    text-align: center;
+    font-size: 13px;
+
+}
+.login-w-gg{
+    background-color: #4285f4;  
+    height: 39px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #efefef;
+    font-size: 13px;
+    margin: 15px 0 15px 0;
+}
+.login-w-gg img{
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+
+}
+.login-singup{
+    display: flex;
+    height: 20px ;
+    justify-content: center;
+}
+.login-singup h3{
+    line-height: 20px;
+ margin: 0 15px 0 15px;
+}
+.login-singup span{
+    line-height: 20px;
+}
+/* my accont */
 .nav{
     z-index: 1;
 }
