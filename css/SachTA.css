@@ -122,5 +122,16 @@
     select{
         margin-top: 20px;
     }
-
-    
+    .d2t{
+        display: inline-block;
+        float: right;
+    }
+    .ic{
+        font-size: 18px;
+        width: 24px;
+        height: 24px;
+        background-color: none;
+        padding: 0px;
+        margin: 0px 3px;
+        float: left;
+    }
