@@ -57,6 +57,7 @@ header{
     height: 43px;
     padding: 7px 30px 7px 5px;
     border:solid 1px #ff6040;
+    outline: none;
 }
 .search button{
     padding: 14px 14px 13px;
