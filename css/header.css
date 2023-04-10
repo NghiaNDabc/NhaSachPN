@@ -214,6 +214,7 @@ header{
     list-style-type: none;
     box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
     width: 354px;
+    background-color: white;
 }
 .con a{
     text-decoration: none;

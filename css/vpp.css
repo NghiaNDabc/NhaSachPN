@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    display: flex;
-}
+
 header{
     display: flex;
     flex-direction: column;
