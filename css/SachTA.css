@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    border:1px solid #b6b2b2;
+    margin-left: 80px;
+    padding: 20px;
+    width: 1200px;
+
+}
+.trai{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.chu{
+    margin: 20px 80px;
+    margin-bottom: 10px;
+}
+.chu a{
+    text-decoration: none;
+    color: #ff9900;
+    font-size: 12px;
+    font-weight: 600;
+}
+.chu strong{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+    nav>ul{
+        background-color: #d8482b;
+        width: 230px;
+        height: 280px;
+        line-height: 12px;
+        list-style-type: none;
+        flex-direction: column;
+    }
+    nav>ul>li>a{
+        font-size: 13px;
+        color: white;
+        font-weight: 200;
+        line-height: 15px;
+        text-decoration: none;
+        width: 230px;
+        height: 70px;
+        display: inline-flex;
+        padding: 15px 20px;
+    }
+    nav>ul>li>a:hover{
+        background-color: #bf3d23;
+    }
+    .chaM{
+        position: relative;
+    }
+    .conM{
+        left: 230px;
+        top: 0px;
+        position: absolute;
+        height: 350px;
+        width: 200px;
+        list-style-type: none;
+        border: 1px #bf3d23 solid;
+        display: none;
+    }
+    .conM a{
+        font-size: 13px;
+        color: black;
+        font-weight: 200;
+        line-height: 15px;
+        text-decoration: none;
+        width: 198px;
+        height: 70px;
+        display: inline-flex;
+        padding: 15px 20px;
+    }
+    .conM li a:hover{
+        background-color: rgb(107, 96, 96);
+        color: white;
+    }
+    .chaM:hover .conM{
+        display: inline-block;
+    }
+    .con2{
+        left: 230px;
+        top: 0px;
+        position: absolute;
+        height: 283px;
+        width: 200px;
+        list-style-type: none;
+        border: 1px #bf3d23 solid;
+        display: none;
+    }
+    .con2 a{
+        font-size: 13px;
+        color: black;
+        font-weight: 200;
+        line-height: 15px;
+        text-decoration: none;
+        width: 198px;
+        height: 70px;
+        display: inline-flex;
+        padding: 15px 20px;
+    }
+    .con2 li a:hover{
+        background-color: rgb(107, 96, 96);
+        color: white;
+    }
+    .chaM:hover .con2{
+        display: inline-block;
+    }
+    .phai{
+        width: 75%;
+    }
+    span{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    select{
+        margin-top: 20px;
+    }
+    .d2t{
+        display: inline-block;
+        float: right;
+    }
+    .ic{
+        font-size: 18px;
+        width: 24px;
+        height: 24px;
+        background-color: none;
+        padding: 0px;
+        margin: 0px 3px;
+        float: left;
+    }
