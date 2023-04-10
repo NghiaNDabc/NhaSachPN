@@ -9,32 +9,32 @@ header{
     display: flex;
     flex-direction: column;
 }
-.row{
+.wrap{
     border-bottom: solid 2px #cc4125;
 }
-.row_cha{
+.wrap_cha{
     display: flex;
     margin-left: 80px;
     list-style-type: none;
     font-size: 12px;
     font-weight: 600;
 }
-.row_con{
+.wrap_con{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 5px;
     cursor: pointer;
 }
-.row_con a{
+.wrap_con a{
     text-decoration: none;
     color: black;
 }
-.container{
+.container_header{
     display: flex;
     margin-left: 60px;
     margin-top:10px;
 }
-.row_con a:hover{
+.wrap_con a:hover{
     color: red;
 }
 .logo{
