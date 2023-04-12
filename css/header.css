@@ -85,7 +85,7 @@ header{
     font-size: 12px;
     cursor: pointer;
 }
-.icon_con:hover>i.fa-user{
+.icon_con:hover>i{
     color: #cc4125;
 }
 /* my accont */
