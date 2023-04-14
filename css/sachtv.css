@@ -1,0 +1,116 @@
+
+.cha{
+    position: relative;
+}
+.con{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    width: 354px;
+    background-color: white;
+}
+.con a{
+    text-decoration: none;
+    color: #434343;
+    line-height: 40px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.con a:hover{
+    color: red;
+}
+.cha:hover .con{
+    display: block;
+}
+
+.chu{
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.chu a{
+    text-decoration: none;
+    color: #ff9900;
+    font-size: 12px;
+    font-weight: 600;
+}
+.chu strong{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.content{
+    display: flex;
+    border:1px solid #b6b2b2;
+    margin-left: 80px;
+    padding: 20px;
+    width: 1200px;
+
+}
+/*  */
+.left{
+    width: 25%;
+    display: block;
+}
+.menu>ul{
+    display: block;
+    list-style-type: none;
+    background-color: #cc4125;
+    height: auto;
+}
+.cha1>a{
+    text-decoration: none;
+    line-height: 60px;
+    color: #efefef;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.cha1:hover{
+    background: #b63a21;
+}
+.cha1{
+    position: relative;
+}
+.con1{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    right: -250px;
+    top: 0;
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid #cc4125;
+}
+.con1 a{
+    width: 250px;
+    text-decoration: none;
+    color: #434343;
+    line-height: 60px;
+    font-size: 14px;
+    width: 248px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.con1 a:hover{
+    color: #fff;
+    background-color: #434343;
+}
+.cha1:hover .con1{
+    display: block;
+}
+
+/*  */
+.right{
+    width: 75%;
+    margin-left: 15px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-list {
+    display: flex;
+    justify-content: flex-end;
+}
