@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .content{
     display: flex;
@@ -124,7 +125,6 @@
     }
     .d2t{
         display: inline-block;
-        float: right;
     }
     .ic{
         font-size: 18px;
