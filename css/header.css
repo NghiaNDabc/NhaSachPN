@@ -80,8 +80,9 @@ header{
 .icon{
     display: flex;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 150px;
     color: #434343;
+   
 }
 .icon_con i{
     font-size: 36px;
