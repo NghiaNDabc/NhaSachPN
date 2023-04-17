@@ -1,4 +1,7 @@
-
+*{
+    padding: 0px;
+    margin-left:px;
+}
 .cha{
     position: relative;
 }
@@ -45,7 +48,7 @@
     border:1px solid #b6b2b2;
     margin-left: 80px;
     padding: 20px;
-    width: 1200px;
+    width: 1250px;
 
 }
 /*  */
@@ -101,16 +104,23 @@
     display: block;
 }
 
-/*  */
 .right{
     width: 75%;
     margin-left: 15px;
 }
+/*content*/
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .content-list {
     display: flex;
-    justify-content: flex-end;
+    width: 890px;
+    margin-left: -10px;
+    height: 325px;
+}
+.content_2{
+    background-color:#fff;
+    border: groove 1px;
+    width: calc(25%-10px);
+    margin-left: 10px;
 }
