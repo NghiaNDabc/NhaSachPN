@@ -110,8 +110,7 @@
 }
 .nd:hover{
     border: 1px solid #ff9900;
-    box-shadow: 0px 0px 5px 5px #dad3e5;
-    
+    box-shadow: 0px 0px 5px 5px #dad3e5;    
 }
 .img{
     text-align: center;
