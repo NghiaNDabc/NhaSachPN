@@ -6,15 +6,8 @@
 }
 
 .chu{
-<<<<<<< HEAD
     width: 1200px;
     margin: 10px auto 10px auto;
-=======
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  
->>>>>>> aaeebc503771c695e2d071f31e953695504e1068
 }
 .chu a{
     text-decoration: none;
@@ -30,11 +23,7 @@
 .content{
     display: flex;
     border:1px solid #b6b2b2;
-<<<<<<< HEAD
    margin: auto;
-=======
-    margin: auto;
->>>>>>> aaeebc503771c695e2d071f31e953695504e1068
     padding: 20px;
     width: 1200px;
 }
