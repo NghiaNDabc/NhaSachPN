@@ -108,6 +108,18 @@
     width: 75%;
     margin-left: 15px;
 }
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.option{
+    font: 12px Roboto, sans-serif, sans-serif;
+    color: #000;
+    background-color: #fff;
+    padding: 3px 20px 2px 9px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 /*content*/
 .right>h1{
     font-weight: bold;
