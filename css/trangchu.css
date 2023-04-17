@@ -43,7 +43,7 @@ body{
     width: 75%;
     float: left;
     height: 100%;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0;
     
 }
 .slider img.slide{
@@ -64,7 +64,7 @@ body{
     right: 20px;   
 }
 .slide-sale{
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
     width: 25%;
     /* float: right; */
     display: flex;

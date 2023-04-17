@@ -7,13 +7,15 @@ function showUser(){
 }
 userIcon.addEventListener('click',showUser)
 
-var menu = document.querySelector(".header-menu");
+var menu = document.querySelector(".js-header-menu");
 var menuPosition = menu.offsetTop;
 
 window.addEventListener("scroll", function() {
   if (window.pageYOffset >= 120) {
     menu.classList.add("active");
+    menu.classList.remove("header-menu");
   } else {
     menu.classList.remove("active");
+    menu.classList.add("header-menu");
   }
 });
