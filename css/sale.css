@@ -39,18 +39,13 @@
 }
 .left{
     width: 25%;
-    margin-left: -8px;
     display: block;
 }
-#menudoc {
-    margin-top: 25px;
-    margin-left: 9px;
-}
-#menudoc>ul {
-    background: #cc4125;
-    width: 250px;
-    padding: 0;
+.menudoc>ul{
+    display: block;
     list-style-type: none;
+    background-color: #cc4125;
+    height: auto;
 }
 .cha1>a{
     text-decoration: none;
@@ -58,10 +53,10 @@
     color: #efefef;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 45px;
 }
 .cha1:hover{
-    background: #db8728;
+    background: #b63a21;
 }
 .cha1{
     position: relative;
@@ -72,7 +67,7 @@
     list-style-type: none;
     right: -250px;
     top: 0;
-    background-color: #fff; 
+    background-color: #fff;
     width: 250px;
     border: 1px solid #cc4125;
 }
@@ -94,7 +89,6 @@
     display: block;
 }
 
-
 /*  */
 .right{
     width: 75%;
@@ -106,8 +100,9 @@
     font: 24px Roboto, sans-serif, sans-serif;
     font-weight: bold;
 }
+/* Phan loai */
 .distribute{
-    margin: 5px 0 0 0;
+    margin: 10px 0 0 0;
     background: #fff;
     border-bottom: 1px solid #fff;
     padding: 0px 15px;
@@ -120,93 +115,110 @@
     margin: 0px 0px 1px;
     padding: 3px 20px 2px 9px;
 }
+/* San pham */
 .item{
-    display: inline-block;
-    margin: 25px 0 20px 15px;
-    padding: 0;
-    background-color: #fff;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .sp{
-    padding-left: 0px;
-    vertical-align: top;
     width: 30%;
-    height: 330px;
-    display: inline-block;
-    box-sizing: border-box;
-    transition: all;
-    border: solid 1px #000;
-    margin-top: 10px;
-    margin-right: 10px;
+    border: 1px solid #dad3e5;
+    background-color: #fff;
+    margin: 10px;
+    transition: all 0.5s ease
 }
-.preview_img{
-    display: inline;
-    position: relative;
-    border: none;
+.sp:hover{
+    border: 1px solid #ff9900;
+    box-shadow: 0px 0px 5px 5px #dad3e5;    
 }
 .img{
-    max-width: 75%;
-    height: auto;
-    margin-left: 30px;
-}
-.intro{
-    padding: 10px 10px 5px;
-    white-space: nowrap;
-    width: 100%;
-    margin-top: 10px;
-}
-.tensp{
-    color: #000;
-    font: 15px Roboto, sans-serif, sans-serif;
-    font-weight: bold;
-    text-align: left;
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
-    text-decoration: none;
+    text-align: center;
     cursor: pointer;
-}
-.tensp:hover{
-    color: #db8728;
+    margin-bottom: 10px;
+    width: 100%;
 }
 .price{
-    font: 16px Roboto,sans-serif,sans-serif;
-    font-weight: bold;
-    color: #f00;
+    margin-left: 10px;
+}
+.price h2{
+    font-size: 16px;
+    cursor: pointer;
+ }
+ .price h2:hover{
+     color: #ff9900  ;
+ }
+ .price h1{
+     font-size: 18px;
+     margin: 5px;
+ }
+ .button{
+     width: 100%;
+     background-color: #6AA84F;
+     border: 0;
+     padding: 10px 5px 10px;
+     color: #fff;
+     font-weight: bold;
+     font-size: 12px;
+     cursor: pointer;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .button>i{
+     margin-right: 5px;
+ }
+ .button:hover{
+     background-color: #b63a21;
+     color: black;
+ }
+ .icon_left{
+     display: flex;
+     justify-content: flex-end;  
+     font-size: 13px;  
+     margin-bottom: 12px;
+     margin-right: 10px;
+     color: #434343;
+     cursor: pointer;
+ }
+ 
+ .icon_left i{
+     display: inline-block;
+     font-size: 20px;
+     width: 30px;
+     height: 28px;
+     margin: 0px 5px 0 0;
+     padding: 4px 0px 3px;
+     background: #f5f3f8;
+     border: 1px solid #dad3e5;
+     text-align: center;
+ }
+ 
+ .icon_left i:hover{
+     color: #6AA84F;
+ }
+ 
+ 
+
+/* So trang */
+.page{
+    margin: 10px 0;
+    padding: 0;
     text-align: left;
 }
-.buy{
-    display: block;
-    width: 100%;
-    background-color: #6aa84f;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 10px;
-    padding: 6px 5px 7px;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    line-height: normal;
-}
-.choose{
+.transfer{
     display: inline-block;
-    position: relative;
-    padding: 2px 5px 0 0;
-    vertical-align: top;
-    color: #fff;
-    margin: 0;
-    top: auto;
-    text-decoration: none;
-    font-family: et-glyphs;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-}
-.buy:hover{
+    margin: 0 5px 10px 15px;
+    padding: 5px 6px;
+    cursor: pointer;
+    background-color: #fff;
     color: #000;
-    background-color:#cc4125;
+    text-align: center;
+    text-decoration: none;
+    font: 17px Roboto,sans-serif,sans-serif;
+    width: auto;
+    min-width: 30px;
+    border: solid 1px #000;
+}
+.transfer:hover{
+    background-color: #cc4125;
 }
