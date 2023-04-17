@@ -9,6 +9,12 @@ header{
     display: flex;
     flex-direction: column;
 }
+.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .wrap{
     border-bottom: solid 2px #cc4125;
 }
@@ -86,6 +92,9 @@ header{
     cursor: pointer;
 }
 .icon_con:hover>i{
+    color: #cc4125;
+}
+.icon_con:hover{
     color: #cc4125;
 }
 /* my accont */
@@ -183,6 +192,7 @@ header{
 }
 /* my accont */
 .nav{
+    height: 45px;
     z-index: 1;
 }
 .nav>ul{
