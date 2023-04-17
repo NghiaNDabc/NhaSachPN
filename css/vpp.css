@@ -9,6 +9,7 @@
     margin-left: 80px;
     margin-top: 10px;
     margin-bottom: 10px;
+  
 }
 .chu a{
     text-decoration: none;
@@ -24,10 +25,9 @@
 .content{
     display: flex;
     border:1px solid #b6b2b2;
-    margin-left: 80px;
+    margin: auto;
     padding: 20px;
     width: 1200px;
-    justify-content: center;
 
 }
 /*  */
@@ -96,6 +96,8 @@
     font-size: 24px;
     margin: 10px 0px;
 }
+
+/* khung sach */
 .container_nd{
     display: flex;
     justify-content: space-between;
