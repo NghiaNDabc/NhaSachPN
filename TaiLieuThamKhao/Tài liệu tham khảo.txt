@@ -4,3 +4,4 @@
 3.Tài liệu 3: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267
               cc91/?fbclid=IwAR1dISGH070R6Dkvqi2D0AaZxO4hdJiG3HHnvxNSWKp8ol1W3lp1QFLT-Eo
 4. Tài liệu 4: https://frontendmasters.com/guides/front-end-handbook/2019/#3.1
+5. Tài liệu 5 (js): https://javascript.info/
