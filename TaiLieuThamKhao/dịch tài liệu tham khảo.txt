@@ -1,0 +1,11 @@
+1, Sử dụng thuộc tính Line-Height
+    Thông thường, bạn cũng có thể căn giữa văn bản theo chiều dọc bên trong div với thuộc tính line-height .
+    Trong HTML của bạn, hãy thêm một phần tử đoạn bên trong div, sau đó đặt thuộc tính line-height của div bằng với chiều cao của div.
+    Để căn giữa một đoạn có nhiều dòng, hãy đặt hiển thị của đoạn đó thành inline-block , đặt line-height thành normal và đặt vertical-align thành middle .
+Điều này đảm bảo rằng văn bản bên trong div được căn giữa theo chiều dọc, cho dù đó là một dòng hay nhiều dòng văn bản.
+2, Sử dụng thuộc tính Align-Items
+    Nếu bạn đang sử dụng thuộc tính display để xác định div của mình dưới dạng bộ chứa flex, thì bạn không thể sử dụng phương pháp trên để căn giữa văn bản
+theo chiều dọc trong div. Thay vào đó, bạn phải sử dụng thuộc tính align-items với giá trị center .
+    Hãy tạo div giống như trên, đặt tên lớp là .center . Đặt hiển thị thành flex để biến div thành vùng chứa flex. Để thấy rõ hơn rằng văn bản được căn giữa
+theo chiều dọc, hãy xác định cả thuộc tính chiều cao . Nếu không, hộp chứa flex sẽ chỉ cao bằng mức cần thiết để chứa đoạn văn bên trong. Sau đó, đặt thuộc tính align-items thành center .
+src: https://blog.hubspot.com/website/center-div-css?fbclid=IwAR0B6xEpcpcV8JJnND1jzKN-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20nBqBbKehIsmCYlXcLzghpKPUAM6c8r3BOZ4
