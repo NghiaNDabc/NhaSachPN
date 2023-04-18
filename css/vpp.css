@@ -23,7 +23,7 @@
 .content{
     display: flex;
     border:1px solid #b6b2b2;
-   margin: auto;
+    margin: auto;
     padding: 20px;
     width: 1200px;
 }
