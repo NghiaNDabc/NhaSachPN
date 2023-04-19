@@ -1,25 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
+
+
 /* slide */
-body{
+
+body {
     font-size: 62.5%;
 }
 
-.row{
-    height: 426px;
+.row {
+   
     max-width: 1200px;
     margin: auto;
 }
-.content-slide .row{
+
+.content-slide .row {
+    height: 426px;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
-.button-slide{
+
+.button-slide {
     display: none;
     width: 40px;
     height: 40px;
@@ -27,94 +34,322 @@ body{
     text-align: center;
     line-height: 40px;
     /* align-items: center; */
-    background-color: rgba(120, 251, 98,0.5);
+    background-color: rgba(120, 251, 98, 0.5);
     transition: all 0.5s ease;
 }
-.button-slide:hover{
-    background-color: rgba(120, 251, 98,1);
-}
-.slider:hover .button-slide{
-    display: block;
 
+.button-slide:hover {
+    background-color: rgba(120, 251, 98, 1);
 }
-.slider
-{   
+
+.slider:hover .button-slide {
+    display: block;
+}
+
+.slider {
     position: relative;
     width: 75%;
     float: left;
     height: 100%;
     padding: 10px 0px 10px 0;
-    
 }
-.slider img.slide{
+
+.slider img.slide {
     width: 100%;
     height: 100%;
     display: block;
 }
-#prev{
+
+#prev {
     font-size: 30px;
     position: absolute;
     top: 50%;
     left: 20px;
 }
-#next{
+
+#next {
     font-size: 30px;
- position: absolute;
+    position: absolute;
     top: 50%;
-    right: 20px;   
+    right: 20px;
 }
-.slide-sale{
+
+.slide-sale {
     padding: 10px 0px 10px 10px;
     width: 25%;
     /* float: right; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     /* background-color: red; */
     height: 100%;
     height: 100%;
 }
-.slide-sale a{
+
+.slide-sale a {
     display: block;
     height: 240px;
     width: 100%;
 }
-.slide-sale img{
+
+.slide-sale img {
     width: 100%;
     height: 100%;
 }
-.slide-sale a:hover img{
+
+.slide-sale a:hover img {
     opacity: 0.85;
 }
-.slide-sale img:last-child{
+
+.slide-sale img:last-child {
     /* margin-top: 22px; */
     /* margin-bottom: 0px; */
-
 }
+
 
 /* slide */
 
+
 /* menu dưới slide */
-.slide-menu{
+
+.slide-menu {
     height: 165px;
     /* background-color: red; */
-    
 }
-.slide-menu .row{
+
+.slide-menu .row {
     display: flex;
     justify-content: space-between;
 }
-.slide-menu-box{
+
+.slide-menu-box {
     height: 135px;
     width: 135px;
     text-align: center;
     font-size: 1.4em;
 }
-.slide-menu-box img{
-    border-radius: 50%;
+
+.slide-menu-box img {
 }
-.slide-menu-box img:hover{
-    opacity:0.85 ;
+
+.slide-menu-box img:hover {
+    opacity: 0.85;
 }
+
+
 /* menu dưới slide */
 
+
+/* content menu */
+
+.content-menu{
+    margin-top: 10px;
+}
+.content-menu .row {
+    background-color: #cc4125;
+    height: 38px;
+}
+
+.content-menu ul {
+    margin: auto;
+    justify-content:center; 
+    height: 38px;
+    display: flex;
+    list-style-type: none;
+}
+
+.content-menu ul li {
+    height: 38px;
+}
+
+.content-menu ul li a {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: black;
+    padding: 0px 10px;
+    line-height: 38px;
+    font-weight: 600;
+    display: block;
+}
+
+.content-menu ul li:first-child {
+    background-color: #f1c232;
+}
+
+.content-menu ul li a:hover {
+    background-color: #f1c232;
+}
+
+.content-menu ul li a:active {
+    background-color: #f1c232;
+}
+
+
+/* nd */
+
+.list-book {
+    margin-top: 10px;
+}
+
+.list-book .row {
+    margin-bottom: 10px;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.nd {
+    position: relative;
+    width: 225.7px;
+    border: 1px solid #dad3e5;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    height: 350px;
+}
+
+.nd:hover {
+    border: 1px solid #ff9900;
+    box-shadow: 0px 0px 5px 5px #dad3e5;
+}
+
+.nd .img {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    width: 213px;
+    height: 213px;
+    margin: auto;
+}
+
+.gia {
+    margin-left: 10px;
+}
+
+.gia h2 {
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 30px;
+    font-size: 13px;
+    height: 15px;
+    margin: auto;
+    width: 213px;
+}
+
+.gia h2 a {
+    color: black;
+}
+
+.gia h2:hover {
+    color: #ff9900;
+}
+
+.gia h1 {
+    font-size: 16px;
+    margin: 10px auto 5px auto;
+    height: 19px;
+    width: 213px;
+}
+
+.button {
+    width: 213px;
+    background-color: #6AA84F;
+    border: 0;
+    /* padding: 10px 5px 10px; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px auto 10px auto;
+    height: 26px;
+    text-align: center;
+    display: block;
+}
+
+.button>i {
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #b63a21;
+    color: black;
+}
+
+.icon_left {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    color: #434343;
+    cursor: pointer;
+}
+
+.icon_left i {
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    margin: 0px 5px 0 0;
+    padding: 4px 0px 3px;
+    background: #f5f3f8;
+    border: 1px solid #dad3e5;
+    text-align: center;
+}
+
+.icon_left i:hover {
+    color: #6AA84F;
+}
+
+.sao {
+    color: #ff9900;
+    padding: 0 10px;
+    float: left;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.sao .fa-star {
+    margin: 0 2px;
+}
+
+.giamgia {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+
+/* nd */
+
+.content-title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.content-title .row {
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    border-bottom: 1px #ff9900 solid;
+    line-height: 40px;
+}
+
+/* content img */
+.content-img {
+}
+.content-img .row{
+    display: flex;
+    justify-content: space-between;
+}
