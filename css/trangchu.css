@@ -15,7 +15,7 @@ body {
 
 .row {
    
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -148,6 +148,7 @@ body {
 .content-menu .row {
     background-color: #cc4125;
     height: 38px;
+    width: 1250px;
 }
 
 .content-menu ul {
@@ -223,7 +224,9 @@ body {
 }
 
 .gia {
-    margin-left: 10px;
+   width: 213px;
+   margin: auto;
+
 }
 
 .gia h2 {
@@ -236,7 +239,21 @@ body {
     margin: auto;
     width: 213px;
 }
+.giaban{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+}
+.giaban .giatruoc{
+        line-height: 19px;
+        text-decoration: line-through;
+        font-size: 13px;
+}
+.gia .giasau{
+    float: left;
+    line-height:19px ;
 
+}
 .gia h2 a {
     color: black;
 }
@@ -244,16 +261,18 @@ body {
 .gia h2:hover {
     color: #ff9900;
 }
-
-.gia h1 {
+.gia .giasau {
+    font-weight: 600;
     font-size: 16px;
-    margin: 10px auto 5px auto;
+}
+.giaban{
     height: 19px;
     width: 213px;
+    margin: 10px auto 5px auto;
 }
 
 .button {
-    width: 213px;
+    width: 100%;
     background-color: #6AA84F;
     border: 0;
     /* padding: 10px 5px 10px; */
@@ -275,7 +294,9 @@ body {
     background-color: #b63a21;
     color: black;
 }
-
+.nd-icon{
+    margin-top: 5px;
+}
 .icon_left {
     display: flex;
     justify-content: flex-end;
