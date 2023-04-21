@@ -10,6 +10,7 @@
     margin-left: 80px;
     padding: 20px;
     width: 1200px;
+    margin: auto;
 
 }
 .trai{
@@ -18,8 +19,10 @@
     flex-direction: column;
 }
 .chu{
+    
     margin: 20px 80px;
-    margin-bottom: 10px;
+    margin: 10px auto 10px auto;
+    width: 1200px;
 }
 .chu a{
     text-decoration: none;
