@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}   
+        .nd {
+    position: relative;
+    width: 225.7px;
+    border: 1px solid #dad3e5;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    height: 350px;
+}
+
+.nd:hover {
+    border: 1px solid #ff9900;
+    box-shadow: 0px 0px 5px 5px #dad3e5;
+}
+
+.nd .img {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    width: 213px;
+    height: 213px;
+    margin: auto;
+}
+
+.gia {
+   width: 213px;
+   margin: auto;
+
+}
+
+.gia h2 {
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 30px;
+    font-size: 13px;
+    height: 15px;
+    margin: auto;
+    width: 213px;
+}
+.giaban{
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+}
+.giaban .giatruoc{
+        line-height: 19px;
+        text-decoration: line-through;
+        font-size: 13px;
+        color: #434343;
+}
+.gia .giasau{
+    float: left;
+    line-height:19px ;
+
+}
+.gia h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.gia h2:hover {
+    color: #ff9900;
+}
+.gia .giasau {
+    font-weight: 600;
+    font-size: 16px;
+}
+.giaban{
+    height: 19px;
+    width: 213px;
+    margin: 10px auto 5px auto;
+}
+
+.button {
+    width: 100%;
+    background-color: #6AA84F;
+    border: 0;
+    /* padding: 10px 5px 10px; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px auto 10px auto;
+    height: 26px;
+    text-align: center;
+    display: block;
+}
+
+.button>i {
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #b63a21;
+    color: black;
+}
+.nd-icon{
+    margin-top: 5px;
+}
+.icon_left {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    color: #434343;
+    cursor: pointer;
+}
+
+.icon_left i {
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    margin: 0px 5px 0 0;
+    padding: 4px 0px 3px;
+    background: #f5f3f8;
+    border: 1px solid #dad3e5;
+    text-align: center;
+}
+
+.icon_left i:hover {
+    color: #6AA84F;
+}
+
+.sao {
+    color: #ff9900;
+    padding: 0 10px;
+    float: left;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.sao .fa-star {
+    margin: 0 2px;
+}
+
+.giamgia {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 42px;
+}
+    </style>
+</head>
+<body>
+    <div class="nd">
+        <div class="giamgia">
+            -30%
+        </div>
+        <div class="img">
+            <img src="../img/vpp/so_1.jpg" alt="">
+        </div>
+        <div class="gia">
+            <h2><a href="#">Sổ Bìa Da Pu B6 186Tr</a></h2>
+            <div class="giaban">
+                <div  class="giasau" style="color: #ff0000;">165,000 đ</div>
+                <div class="giatruoc"> 165,000 đ</div>
+            </div>
+        </div>
+        <div class="chonmua">
+            <button class="button">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 CHỌN MUA
+            </button>
+            <div class="nd-icon">
+                <div class="sao">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icon_left">
+                    <i class="fa-solid fa-eye"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="giamgia">
+            -30%
+        </div>
+    </div> 
+</body>
+</html>
