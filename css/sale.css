@@ -116,7 +116,8 @@
     border: 1px solid #dad3e5;
     background-color: #fff;
     margin: 10px;
-    transition: all 0.5s ease
+    transition: all 0.5s ease;
+    position: relative;
 }
 .sp:hover{
     border: 1px solid #ff9900;
