@@ -122,6 +122,37 @@
     border: 1px solid #ff9900;
     box-shadow: 0px 0px 5px 5px #dad3e5;    
 }
+.giamgia{
+    border-radius: 90%;
+    width: 42px;
+    height: 42px;
+    background: #c00;
+    top: 5px;
+    left: auto;
+    right: 5px;
+    position: absolute;
+    z-index: 100;
+    border: none;
+    font-family: vs-icon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+}
+.giamgia span{
+    font: bold 18px Roboto, sans-serif, sans-serif;
+    color: #fff;
+    white-space: nowrap;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: block;
+    width: 42px;
+    padding: 9px 0;
+}
 .img{
     text-align: center;
     cursor: pointer;
@@ -138,10 +169,26 @@
  .price h2:hover{
      color: #ff9900  ;
  }
- .price h1{
-     font-size: 18px;
-     margin: 5px;
- }
+
+.giaban{
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+    margin: 10px auto 5px auto;
+}
+.giaban .giagoc{
+    line-height: 19px;
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #434343;
+}
+.price .giasale{
+    float: left;
+    line-height: 18px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
  .button{
      width: 100%;
      background-color: #6AA84F;
@@ -181,13 +228,39 @@
      background: #f5f3f8;
      border: 1px solid #dad3e5;
      text-align: center;
- }
- 
+ } 
  .icon_left i:hover{
      color: #6AA84F;
  }
- 
- 
+ .nd-icon{
+    margin-top: 5px;
+ }
+ .sao{
+    color: #ff9900;
+    padding: 0 10px;
+    float: left;
+    height: 26px;
+    display: flex;
+    align-items: center;
+ }
+ .sao .fa-star {
+    margin: 0 2px;
+}
+
+.giamgia {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 42px;
+}
 
 /* So trang */
 .page{
