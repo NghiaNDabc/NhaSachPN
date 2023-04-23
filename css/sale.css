@@ -233,6 +233,9 @@
  .icon_left i:hover{
      color: #6AA84F;
  }
+ .nd{
+    position: relative;
+ }
  .nd-icon{
     margin-top: 5px;
  }
