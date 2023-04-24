@@ -123,50 +123,86 @@
     select{
         margin-top: 20px;
     }
-    .icon_vg a{
-        font-size: 20px;
-        color: grey;
-    }
-    .icon_vg a:hover{
-        color: rgb(189, 189, 36);
-    }
-    .nd_d1{
-        display: inline-block;
-        border: 1px solid #b6b2b2;
-        height: auto;
-        width: auto;
-        margin: 15px 20px;
-
+    .container_nd{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     
-    .anh1 img{
-        height: 230px;
-        width: 170px;
-        padding: 10px 10px;
+    .nd{
+        width: 30%;
+        border: 1px solid #dad3e5;
+        background-color: #fff;
+        margin: 10px;
+        transition: all 0.5s ease
+    }
+    .nd:hover{
+        border: 1px solid #ff9900;
+        box-shadow: 0px 0px 5px 5px #dad3e5;
         
     }
-    .tensach{
-        font-weight: bold;
-        font-size: 13px;
+    .img{
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 10px;
+        width: 100%;
     }
     .gia{
-        color: red;
-        font-weight: bold;
-        font-size: 13px;
-        margin: 10px 0px;
+        margin-left: 10px;
     }
-    .lc{
+    .gia h2{
+       font-size: 16px;
+       cursor: pointer;
+    }
+    .gia h2:hover{
+        color: #ff9900  ;
+    }
+    .gia h1{
+        font-size: 18px;
+        margin: 5px;
+    }
+    .button{
         width: 100%;
-        background: #6aa84f;
-        margin: 0;
-        cursor: pointer;
+        background-color: #6AA84F;
+        border: 0;
+        padding: 10px 5px 10px;
         color: #fff;
-        padding: 6px 5px 7px;
-        font-size: 11px;
         font-weight: bold;
-        border: #6aa84f;
+        font-size: 12px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    .mua :hover{
-        background-color: rgb(228, 53, 53);
+    .button>i{
+        margin-right: 5px;
+    }
+    .button:hover{
+        background-color: #b63a21;
+        color: black;
+    }
+    .icon_left{
+        display: flex;
+        justify-content: flex-end;  
+        font-size: 13px;  
+        margin-bottom: 12px;
+        margin-right: 10px;
+        color: #434343;
+        cursor: pointer;
+    }
+    
+    .icon_left i{
+        display: inline-block;
+        font-size: 20px;
+        width: 30px;
+        height: 28px;
+        margin: 0px 5px 0 0;
+        padding: 4px 0px 3px;
+        background: #f5f3f8;
+        border: 1px solid #dad3e5;
+        text-align: center;
+    }
+    
+    .icon_left i:hover{
+        color: #6AA84F;
     }
    
