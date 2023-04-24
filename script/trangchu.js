@@ -26,3 +26,34 @@ preBtn.addEventListener('click',preSlide);
 nextBtn.addEventListener('click',nextSlide);
 
 setInterval(nextSlide,2000);
+
+
+// const slider = document.querySelector('.slide');
+// const prevButton = document.querySelector('#prev');
+// const nextButton = document.querySelector('#next');
+
+// let counter = 0;
+
+// prevButton.addEventListener('click', () => {
+//   if (counter > 0) {
+//     counter--;
+//     slider.style.transform = `translateX(-${counter * 100}%)`;
+//   }
+// });
+
+// nextButton.addEventListener('click', () => {
+//   if (counter < 2) {
+//     counter++;
+//     slider.style.transform = `translateX(-${counter * 100}%)`;
+//   }
+// });
+
+// setInterval(() => {
+//   if (counter < 2) {
+//     counter++;
+//     slider.style.transform = `translateX(-${counter * 100}%)`;
+//   } else {
+//     counter = 0;
+//     slider.style.transform = 'translateX(0)';
+//   }
+// }, 5000);

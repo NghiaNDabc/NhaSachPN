@@ -1,0 +1,87 @@
+1. Danh Sách: 
+    Rất nhiều nội dung của một trang web có dạng danh sách và HTML có các thành phần đặc biệt cho những danh sách này. 
+Đánh dấu danh sách luôn bao gồm ít nhất 2 thành phần.Các loại danh sách phổ biến nhất là danh sách có thứ tự và danh 
+sách không có thứ tự:
+   - Danh sách không có thứ tự là danh sách mà thứ tự các mục không quan trọng, ví dụ như danh sách mua hàng. Chúng 
+được đặt trong phần tử <ul></ul>
+   - Danh sách có thứ tự là danh sách mà thứ tự các mục quan trọng, chẳng hạn như công thức. Chúng được đặt trong
+phần tử <ol></ol>  
+    Mỗi mục bên trong danh sách được đặt bên trong phần tử <li></li> (mục danh sách)
+src: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#:~:text=%3Cimg%3E%20element.-,Lists,lists%20is%20put%20inside%20an%20%3Cli%3E%20(list%20item)%20element.,-For%20example%2C%20if
+
+2. Liên kết:
+    Liên kết rất quan trọng - chúng là thứ làm cho trang web trở thành trang web. Để thêm một liên kết, chúng ta cần sử dụng 
+một phần tử đơn giản <a></a> - "a" là dạng viết tắt của "anchor" (mẩu neo). Để làm cho văn bản trong đoạn của bạn thành một 
+liên kết, hãy làm theo các bước sau:
+    2.1. Chọn một số đoạn văn. Ví dụ chúng ta chọn đoạn văn "Mozilla Manifester"
+    2.2. Đặt đoạn văn trong một phần tử <a></a> như dưới đây:<a>Mozilla Manifesto</a>
+    2.3. Đặt cho phần tử <a></a> một thuộc tính hfef, như đưới đây: <a href="">Mozilla Manifesto</a>
+    2.4. Điền vào giá trị của thuộc tính này địa chỉ trang web mà bạn muốn liên kết đến: <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+    Bạn có thể nhận được kết quả không mong muốn nếu bạn bỏ qua phần http:// hoặc https://, được gọi là giao thức, ở đầu địa chỉ trang web. Sau khi tạo một liên kết,
+hãy nhấp vào liên kết để chắc chắn rằng nó đang gửi cho bạn nơi mà bạn muốn truy cập tới.
+    *Lưu ý: Ban đầu href có thể giống như một lựa chọn khá tối nghĩa cho tên thuộc tính. Nếu bạn có vấn đề khó khăn với việc ghi nhớ nó, hãy nhớ rằng nó là viết tắt
+của hypertext reference (tham chiếu siêu văn bản)
+src: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#:~:text=your%20example%20page.-,Links,it%2C%20remember%20that%20it%20stands%20for%20hypertext%20reference.,-Add%20a%20link
+
+3. Margin (Lề):
+   - Lề là một không gian vô hình xung quanh hộp của bạn, nó đẩy các yếu tố khác ra khỏi hộp. Lề có thể có giá trị dương hoặc âm. Đặt một lề âm trong 1 trang của hộp có thể
+dẫn đến nó đè lên những phần khác của trang. Cho dù bạn đang sử dụng mô hình hộp tiêu chuẩn hay thay thế, kề luôn được thêm vào sau khi tính toán kích thước hiển thị của hộp 
+   - Chúng ta có thể kiểm soát tất cả các lề của một phần tử cùng một lúc bằng cách sử dụng thuộc tính margin hoặc từng bên riêng lẻ bằng cách sử dụng các thuộc tính:
+       margin-top (lề trên)
+       margin-right (lề phải)
+       margin-bottom (lề dưới)
+       margin-left (lề trái)
+    - Thu hẹp lề: 
+          Tùy thuộc vào việc 2 phần tử có lề chạm nhau có lề dương hay âm, kết quả sẽ khác nhau:
+          + Hai lề dương sẽ kết hợp trở thành một lề (hay biên). Kích thước của nó sẽ bằng với biên độ cá nhân lớn nhất
+          + Hai lề âm sẽ thu gọn và giá trị nhỏ nhất (xa nhất từ 0) sẽ được sử dụng 
+          + Nếu một lề là số âm, giá trị của nó sẽ bị trừ khỏi tổng số
+    Trong ví dụ dưới đây, chúng ta có 2 đoạn văn. Đoạn trên cùng có một margin-bottom (lề dưới) là 50pixels, đoạn kia có margin-top (lề trên) 30 pixels. Các lề đã được thu gọn
+lại với nhau nên lề thực tế giữa các hộp là 50 pixels chứ không phải tổng của hai lề.
+    Bạn có thể kiểm tra điều này bằng các đặt margin-top (lề trên) của đoạn hai đến 0. Lề hiển thị giữa 2 đoạn sẽ không thay đổi - nó giữ lại 50 pixels được đặt trong
+margin-bottom (lề dưới) của đoạn văn một. Nếu bạn đặt nó thành -10 pixels, bạn sẽ thấy rằng tổng lề trở thành 40 pixels - nó trừ đi từ 50 pixels.
+src: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#:~:text=in%20more%20detail.-,Margin,that%20the%20overall%20margin%20becomes%2040px%20%E2%80%94%20it%20subtracts%20from%20the%2050px.,-A%20number%20of
+
+4. Border (Biên/Đường viền)
+   Đường viền được vẽ giữa lề và phần đệm của hộp. Nếu bạn sử dụng mô hình hộp tiêu chuẩn, kích thước của đường viền sẽ được thêm vào width (độ rộng) và height (độ cao) 
+của hộp nội dung. Nếu bạn đang sử dụng mô hình hộp thay thế thì kích thước của đường viền sẽ làm cho hộp nội dung nhỏ hơn vì nó lấy một phần của width (độ rộng) và height (độ cao)
+có sẵn của hộp phần tử.
+   Đối với các đường viền tạo kiểu, có một số lượng lớn các thuộc tính - có 4 đường viên và mỗi loại đường viền có một kiểu, độ rộng và màu sắc mà chúng ta có thể muốn thao tác.
+   Bạn có thể đặt chiều rộng, kiểu hoặc màu sắc của cả 4 đường viền trong cùng một lần sử dụng bằng cách sử dụng các thuộc tính đường viên.
+   Để đặt các thuộc tính riêng lẻ của từng bên, hãy sử dụng:
+    - Border-top (đường viền trên)
+    - Border-right (đường viền phải)
+    - Border-bottem (đường viền dưới)
+    - Border-left (đường viền trái)
+   Để đặt chiều rộng, kiểu hoặc màu sắc của tất cả các trang, hãy sử dụng:
+    - Border-width (chiều rộng đường viền)
+    - Border-style (kiểu đường viền)
+    - Border-color (màu sắc đường viền)
+   Để đặt chiều rộng, kiểu hoặc màu sắc của một trang, sử dụng một trong các thuộc tính thường:
+    - Border-top-width (chiều rộng đường viền trên)
+    - Border-top-style (kiểu đường viền trên)
+    - Border-top-color (màu sắc đường viền trên)
+    - Border-right-width (chiều rộng đường viền phải)
+    - Border-right-style (kiểu đường viền phải)
+    - Border-right-color (màu sắc đường viền phải)
+    - Border-bottom-width (chiều rộng đường viền dưới)
+    - Border-bottom-style (kiểu đường viền dưới)
+    - Border-bottom-color (màu sắc đường viền dưới)
+    - Border-left-width (Chiều rộng đường viền trái)
+    - Border-left-style (kiểu đường viền trái)
+    - Border-left-color (màu sắc đường viền trái)
+    Trong ví dụ bên dưới, chúng tôi đã sử dụng nhiều cách viết tắt và viết thường để tạo đường viền. Xem xung quanh với các thuộc tính khác nhau để kiểm tra xem bạn có hiểu cách chúng hoạt động không.
+Các trang MDN dành cho thuộc tính đường viền cung cấp cho bạn thông tin về các kiểu đường viền có sẵn
+
+5. Padding (phần đệm)
+    Padding (phần đệm) nằm giữa border (đường viền) và vùng nội dung và được sử dụng để đẩy nội dung ra khỏi đường viền. Không giống như lề, bạn không thể có padding (phần đệm) âm. Bất kỳ
+nền nào được áp dụng cho phần tử của bạn sẽ hiển thị phía sau padding (phần đệm)
+    Thuộc tính padding kiểm soát padding (phần đệm) trên tất cả các mặt của một phần tử. Để kiểm soát từng bên riêng lẻ, hãy sử dụng các thuộc tính thủ công sau:
+    - padding-top (đệm trên)
+    - padding-right (đệm phải)
+    - padding-bottom (đệm dưới)
+    - padding-left (đệm trái)
+    Trong ví dụ bên dưới, bạn có thể thay đổi giá trị cho padding (phần đệm) trên lớp .box để thấy rằng điều này thay đổi vị trí bắt đầu của văn bản liên quan đến hộp. Bạn cũng có thể thay đổi padding 
+(phần đệm) trên lớp .container để tạo khoảng cách giữa vật chứa và hộp. Bạn có thể thay đổi phần padding cho bất kì phần tử nào để tạo khoảng cách giữa border (đường viền) và bất kỳ thứ gì bên trong
+phần tử đó.
+src: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#:~:text=available%20border%20styles.-,Padding,create%20space%20between%20its%20border%20and%20whatever%20is%20inside%20the%20element.,-The%20box%20model

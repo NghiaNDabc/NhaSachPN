@@ -9,12 +9,7 @@ header{
     display: flex;
     flex-direction: column;
 }
-.active{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+
 .wrap{
     border-bottom: solid 2px #cc4125;
 }
@@ -24,6 +19,8 @@ header{
     list-style-type: none;
     font-size: 12px;
     font-weight: 600;
+    width: 1200px;
+    margin: auto;
 }
 .wrap_con{
     margin-top: 15px;
@@ -36,9 +33,10 @@ header{
     color: black;
 }
 .container_header{
+    width: 1200px;
     display: flex;
-    margin-left: 60px;
-    margin-top:10px;
+    margin: 10px auto 0 auto;
+    justify-content: space-between;
 }
 .wrap_con a:hover{
     color: red;
@@ -64,6 +62,7 @@ header{
     padding: 7px 30px 7px 5px;
     border:solid 1px #ff6040;
     outline: none;
+    font-style: italic;
 }
 .search button{
     padding: 14px 14px 13px;
@@ -80,8 +79,8 @@ header{
 .icon{
     display: flex;
     margin-top: 30px;
-    margin-left: 50px;
     color: #434343;
+   
 }
 .icon_con i{
     font-size: 36px;
@@ -195,28 +194,48 @@ header{
     height: 45px;
     z-index: 1;
 }
-.nav>ul{
+.header-menu{
+ 
+}
+.header-menu{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     background-color: #cc4125;
     height: 45px;
+    width: 1200px;
+    margin: auto;
+}
+.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #cc4125;
+    height: 45px;
+    margin: auto;
 }
 .cha>a{
     text-decoration: none;
     line-height: 45px;
     color: #efefef;
     font-weight: 550;
-    display: inline-block;
-    padding: 0px 110px;
+    display: block;
     font-size: 16px;
+    width: 100%;
+    text-align: center;
 }
 .cha:hover{
     background-color: #e69138;
 }
 
 .cha{
+    /* text-align: center; */
     position: relative;
+    width: 25%;
 }
 .con{
     display: none;
@@ -225,6 +244,7 @@ header{
     box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
     width: 100%;
     background-color: white;
+    padding: auto;
 }
 .con a{
     text-decoration: none;

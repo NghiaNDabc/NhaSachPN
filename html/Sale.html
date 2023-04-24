@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../img/trangchu/shortcuticon.jpg" rel="shortcut icon" type="image/jpeg"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
@@ -79,7 +80,7 @@
             </div>
         </div>
         <div class="nav">
-            <ul class ="header-menu">
+            <ul class ="header-menu js-header-menu">
                 <li class="cha"><a href="">SÁCH TIẾNG VIỆT</a>
                     <ul class="con">
                         <li><a href="#">THEO THỂ LOẠI</a></li>
@@ -121,15 +122,14 @@
     <script type="text/javascript" src="/script/header.js">
     </script>
 
-    <did id="udh1">
-        <ul id="udh2">
-            <li id="udh3"><a href="./trangchu.html">Trang chủ > </a></li>
-            <li id="udh4"><a href="">Ưu đãi hot</a></li>
-        </ul>
-    </did>
+    <div class="chu">
+        <a href="./trangchu.html">Trang chủ </a>
+        <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i>
+        <strong>Ưu đãi hot</strong>
+    </div>
 <div class="content">
     <div class="left">
-        <div id="menudoc">
+        <div class="menudoc">
             <ul>
                 <li class="cha1"><a href="./sachtv.html">Sách Tiếng Việt</a>
                     <ul class="con1">
@@ -184,131 +184,240 @@
         </div>
         <div class="item">
             <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale1.jpg">
+                <div class="giamgia">
+                    <span>-30%</span>
                 </div>
-                <div class="intro">
-                    <a href="#" class="tensp">...ISMS: Hiểu về nghệ thuật hiện đại</a>
-                    <p class="price">245,000đ</p>
+                <div>
+                    <img class="img" src="../img/uudai/sale1.jpg" alt="">
                 </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="price">
+                    <h2>Hiểu Về Nghệ Thuật Hiện Đại</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">167,300đ</div>
+                        <div class="giagoc">239,000đ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale2.jpg">
-                </div>
-                <div class="intro">
-                    <a href="#" class="tensp">Perfect English Conversation</a>
-                    <p class="price">263,200đ</p>
-                </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
                 </div>
             </div>
             <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale3.jpg">
+                <div class="giamgia">
+                    <span>-30%</span>
                 </div>
-                <div class="intro">
-                    <a href="#" class="tensp">Perfect English Vocabualry</a>
-                    <p class="price">249,000đ</p>
+                <div>
+                    <img class="img" src="../img/uudai/sale2.jpg" alt="">
                 </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="price">
+                    <h2>Perfect English Conversation</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">125,300đ</div>
+                        <div class="giagoc">179,000đ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale4.jpg">
-                </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Bài Tập Tạm Biệt" Còn Dang Dở</a>
-                    <p class="price">89,000đ</p>
-                </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
                 </div>
             </div>
             <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale5.jpg">
+                <div class="giamgia">
+                    <span>-30%</span>
                 </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Cơ Trưởng" Thực Tập</a>
-                    <p class="price">178,000đ</p>
+                <div>
+                    <img class="img" src="../img/uudai/sale3.jpg" alt="">
                 </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="price">
+                    <h2>Perfect English Vocabulary</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">125,300đ</div>
+                        <div class="giagoc">179,000đ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale6.jpg">
-                </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Đối Đầu" Nơi Công Sở</a>
-                    <p class="price">98,000đ</p>
-                </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
                 </div>
             </div>
             <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale7.jpg">
+                <div class="giamgia">
+                    <span>-20%</span>
                 </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Giá Ngày Tháng Ấy Có Người Hiểu Tôi..."</a>
-                    <p class="price">85,000đ</p>
+                <div>
+                    <img class="img" src="../img/uudai/sale4.jpg" alt="">
                 </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="price">
+                    <h2>"Bài Tập Tạm Biệt" Còn Dang Dở</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">87,200đ</div>
+                        <div class="giagoc">109,000đ</div>
+                    </div>
                 </div>
-            </div>
-            <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale8.jpg">
-                </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Phạm Duy - Người Từ Trăm Năm" - Tấn Sơn(CD)</a>
-                    <p class="price">33,600đ</p>
-                </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
                 </div>
             </div>
             <div class="sp">
-                <div class="preview_img">
-                    <img class="img" src="../img/uudai/sale9.jpg">
+                <div class="giamgia">
+                    <span>-20%</span>
                 </div>
-                <div class="intro">
-                    <a href="#" class="tensp">"Rừng Sâu" Và Những Truyện Ngắn Khác</a>
-                    <p class="price">125,000đ</p>
+                <div>
+                    <img class="img" src="../img/uudai/sale5.jpg" alt="">
                 </div>
-                <div class="buy">
-                    <a href="#" class="choose">
-                        <p><b>CHỌN MUA</b></p>
-                    </a>
+                <div class="price">
+                    <h2>"Cơ Trưởng" Thực Tập</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">87,200đ</div>
+                        <div class="giagoc">109,000đ</div>
+                    </div>
+                </div>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
                 </div>
             </div>
+            <div class="sp">
+                <div class="giamgia">
+                    <span>-20%</span>
+                </div>
+                <div>
+                    <img class="img" src="../img/uudai/sale6.jpg" alt="">
+                </div>
+                <div class="price">
+                    <h2>"Đối Đầu" Nơi Công Sở</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">103,000đ</div>
+                        <div class="giagoc">129,000đ</div>
+                    </div>
+                </div>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="sp">
+                <div class="giamgia">
+                    <span>-10%</span>
+                </div>
+                <div>
+                    <img class="img" src="../img/uudai/sale7.jpg" alt="">
+                </div>
+                <div class="price">
+                    <h2>"Giá Ngày Tháng Ấy Có Người Hiểu Tôi..."</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">76,500đ</div>
+                        <div class="giagoc">85,000đ</div>
+                    </div>
+                </div>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="sp">
+                <div class="giamgia">
+                    <span>-10%</span>
+                </div>
+                <div>
+                    <img class="img" src="../img/uudai/sale8.jpg" alt="">
+                </div>
+                <div class="price">
+                    <h2>"Phạm Duy - Người Từ Trăm Năm" - Tấn Sơn(CD)</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">60,300đ</div>
+                        <div class="giagoc">67,000đ</div>
+                    </div>
+                </div>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>>
+            <div class="sp">
+                <div class="giamgia">
+                    <span>-10%</span>
+                </div>
+                <div>
+                    <img class="img" src="../img/uudai/sale9.jpg" alt="">
+                </div>
+                <div class="price">
+                    <h2>"Rừng Sâu" Và Những Truyện Ngắn Khác</h2>
+                    <div class="giaban">
+                        <div class="giasale" style="color: #ff0000;">71,100đ</div>
+                        <div class="giagoc">79,000đ</div>
+                    </div>
+                </div>
+                <div class="chonmua">
+                    <button class="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        CHỌN MUA
+                    </button>
+                    <div class="icon_left">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <a class="transfer"><</a>
+            <a class="transfer">1</a>
+            <a class="transfer">2</a>
+            <a class="transfer">3</a>
+            <a class="transfer">4</a>
+            <a class="transfer">5</a>
+            <a class="transfer">></a>
+            <a class="transfer">6 - 16</a>
         </div>
     </div>
 </div>    

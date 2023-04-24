@@ -1,0 +1,9 @@
+Nghĩa đã áp dụng một số thứ khi dịch tài liệu tiếng anh:
+
+--Cách nhúng css vào html: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#:~:text=Open%20your%20index.html%20file.%20Paste%20the%20following%20line%20in%20the%20head%20(between%20the%20%3Chead%3E%20and%20%3C/head%3E%20tags)%3A
+
+--Cách nhúng js vào html: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#:~:text=In%20your%20index,%3C/script%3E
+
+--Cách lấy 1 element lưu vào 1 biến : https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#:~:text=The%20heading%20text,select%20it%20first
+
+--Hàm trong js: https://javascript.info/function-basics

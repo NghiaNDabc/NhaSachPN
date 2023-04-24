@@ -1,4 +1,7 @@
-
+*{
+    padding: 0px;
+    margin-left:px;
+}
 .cha{
     position: relative;
 }
@@ -25,9 +28,8 @@
 }
 
 .chu{
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 1200px;
+    margin: 10px auto 10px auto;
 }
 .chu a{
     text-decoration: none;
@@ -43,7 +45,7 @@
 .content{
     display: flex;
     border:1px solid #b6b2b2;
-    margin-left: 80px;
+    margin: auto;
     padding: 20px;
     width: 1200px;
 
@@ -101,16 +103,113 @@
     display: block;
 }
 
-/*  */
 .right{
     width: 75%;
     margin-left: 15px;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
+/* lựa chọn */
+.ds1{
+    margin-left: 30px;
 }
-.content-list {
+span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.option{
+    font: 12px Roboto, sans-serif, sans-serif;
+    color: #000;
+    background-color: #fff;
+    padding: 3px 20px 2px 9px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/*content*/
+.right>h1{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.container_nd{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nd{
+    width: 30%;
+    border: 1px solid #dad3e5;
+    background-color: #fff;
+    margin: 10px;
+    transition: all 0.5s ease
+}
+.nd:hover{
+    border: 1px solid #ff9900;
+    box-shadow: 0px 0px 5px 5px #dad3e5;
+    
+}
+.img{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.gia{
+    margin-left: 10px;
+}
+.gia h2{
+   font-size: 16px;
+   cursor: pointer;
+}
+.gia h2:hover{
+    color: #ff9900  ;
+}
+.gia h1{
+    font-size: 18px;
+    margin: 5px;
+}
+.button{
+    width: 100%;
+    background-color: #6AA84F;
+    border: 0;
+    padding: 10px 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button>i{
+    margin-right: 5px;
+}
+.button:hover{
+    background-color: #b63a21;
+    color: black;
+}
+.icon_left{
+    display: flex;
+    justify-content: flex-end;  
+    font-size: 13px;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #434343;
+    cursor: pointer;
+}
+
+.icon_left i{
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    margin: 0px 5px 0px 0px;
+    padding: 4px 0px 3px;
+    background: #f5f3f8;
+    border: 1px solid #dad3e5;
+    text-align: center;
+}
+
+.icon_left i:hover{
+    color: #6AA84F;
 }
