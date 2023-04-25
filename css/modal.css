@@ -1,0 +1,133 @@
+*{
+    text-decoration: none;
+}
+.modal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0 ;
+    background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+
+}
+.modal-container{
+    max-width: calc(100% - 40px);
+    position: relative;
+    width: 350px;
+    min-height: 300px;
+    background-color: #fff;
+    animation: modalFadeIn ease .5;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-90%);
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 18px;
+    color: black;
+    line-height: 45px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+
+}
+.modal-close:hover{
+    cursor: pointer;
+}
+.modal-header{
+    height: 45px;
+    background-color: #cc4125;
+    font-size: 18px;
+    color: black;
+    line-height: 45px;
+    padding-left: 20px;
+}
+.modal-bag{
+    margin-right: 16px;
+}
+.modal-body{
+    padding: 16px;
+}
+.modal-label{
+    display: block;
+    font-size: 13px;
+    
+}
+.modal-label-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-label-pass a{
+    font-size: 12px;
+    color: #747E97;
+}
+.modal-input{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255,153,0,0.8) ;
+    outline: none;
+}
+.modal-input:focus{
+    border: 1px solid #ff6040;
+}
+.modal-text, .modal-signup{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+}
+.modal-signup a{
+    color: black;
+}
+.modal-footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 16px 16px 16px 16px;
+
+}
+.modal-container .login-w-gg
+{
+    width: 270px;
+    margin: 10px auto 20px auto ;
+}
+.save-pass{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    width: 100px;
+    justify-content: space-between;
+    
+}
+.modal-login{
+    height: 28px;
+    width: 88px;
+    background-color: #F1C232;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;text-align: center;
+
+}
+.modal.open{
+    display: flex;
+}
+
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
