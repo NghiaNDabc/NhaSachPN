@@ -50,6 +50,8 @@ function checkSignUp(){
     {
         suPassLable.classList.remove('color');
         suPasscfLable.classList.remove('color');
+        suPassAlert.innerHTML= ""
+        suPasscfAlert.innerHTML  = ""
     }
     else
     {
