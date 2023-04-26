@@ -49,7 +49,7 @@ const login = document.querySelector('.user-login');
             if(passW == ""){
                 lgPassAlert.innerHTML =  "Mục "+ "<b>Mật khẩu</b>"+" là bắt buộc."
             }
-            else gPassAlert.innerHTML = ""
+            else lgPassAlert.innerHTML = ""
         }
 
         
