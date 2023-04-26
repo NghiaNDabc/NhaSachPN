@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/singup.css">
     <link href="../img/trangchu/shortcuticon.jpg" rel="shortcut icon" type="image/jpeg"/>
 
 <body>
@@ -47,7 +48,7 @@
                 <div class="icon_con">
                     <i class="fa-solid fa-heart"></i>
                 </div>
-                <div class="icon_con userIcon">
+                <div title="Lần đầu click 2 lần" class="icon_con userIcon">
                     <i class="fa-solid fa-user"></i>
                     <!--  -->
                     <div class="my-account">
@@ -479,6 +480,7 @@
         
     </div>
 </div>
+   
  <!-- modal -->
  <div class="modal js-modal">
     <div class="modal-container js-modal-container">
@@ -491,19 +493,23 @@
         </header>
 
         <div class="modal-body"> 
-            <label for="tickets-quantity" class="modal-label">
+            <label for="lg-email" class="modal-label">
                
                 E-MAIL <span style="color: #ff0000;">*</span>
             </label>
-            <input type="text" id="tickets-quantity" class="modal-input" placeholder="">
+            <input type="text" id="lg-email" class="modal-input" placeholder="">
+            <div id="lg-email-alert" class="alert"></div>
 
-            <label for="pay-email" class="modal-label modal-label-pass">
+            <label for="lg-pass" class="modal-label modal-label-pass">
                 <div>MẬT KHẨU <span style="color: #ff0000;">*</span></div>
                 <div class="forgot-pass">
                     <a href="#">Quên mật khẩu ?</a>
                 </div>
             </label>
-            <input type="email" id="pay-email" class="modal-input" placeholder="">
+            <input type="email" id="lg-pass" class="modal-input" placeholder="">
+            <div id="lg-pass-alert" class="alert"></div>
+
+
             <div class="modal-text">Hoặc đăng nhập với nhận dạng nhà cung cấp khác</div>
             <div class="login-w-gg">
                 
@@ -521,7 +527,8 @@
             </div>
         </footer>
     </div>
-    <!-- modal container -->   
+    
+</div>
 <script type="text/javascript" src="../script/header.js" ></script>
 <script type="text/javascript" src="../script/modal.js"></script>
 </body>

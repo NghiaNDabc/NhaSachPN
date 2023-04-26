@@ -93,8 +93,8 @@ header{
 .icon_con:hover>i{
     color: #cc4125;
 }
-.icon_con:hover{
-    color: #cc4125;
+.user-login:hover{
+    color: #f90;
 }
 /* my accont */
 .icon-con{
@@ -170,6 +170,10 @@ header{
     color: #efefef;
     font-size: 13px;
     margin: 15px 0 15px 0;
+    cursor: pointer;
+}
+.login-w-gg:hover{
+    background-color: #cc4125;
 }
 .login-w-gg img{
     height: 18px;

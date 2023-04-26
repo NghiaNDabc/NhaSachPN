@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/singup.css">
     <link href="../img/trangchu/shortcuticon.jpg" rel="shortcut icon" type="image/jpeg"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -46,8 +47,8 @@
                 <div class="icon_con">
                     <i class="fa-solid fa-heart"></i>
                 </div>
-                <div class="icon_con userIcon">
-                    <i class="fa-solid fa-user"></i>
+                <div  class="icon_con userIcon">
+                    <i title="Lần đầu click 2 lần"  class="fa-solid fa-user"></i>
                     <!--  -->
                     <div class="my-account">
                         <div class="account-infor">
@@ -512,31 +513,34 @@
         </div>
     </div>
 
-    <!-- modal -->
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
             <div class="modal-close js-modal-close">
                 <i class="fa-sharp fa-solid fa-xmark"></i>
             </div>
-
+    
             <header class="modal-header">
                Đăng Nhập
             </header>
-
+    
             <div class="modal-body"> 
-                <label for="tickets-quantity" class="modal-label">
+                <label for="lg-email" class="modal-label">
                    
                     E-MAIL <span style="color: #ff0000;">*</span>
                 </label>
-                <input type="text" id="tickets-quantity" class="modal-input" placeholder="">
-
-                <label for="pay-email" class="modal-label modal-label-pass">
+                <input type="text" id="lg-email" class="modal-input" placeholder="">
+                <div id="lg-email-alert" class="alert"></div>
+    
+                <label for="lg-pass" class="modal-label modal-label-pass">
                     <div>MẬT KHẨU <span style="color: #ff0000;">*</span></div>
                     <div class="forgot-pass">
                         <a href="#">Quên mật khẩu ?</a>
                     </div>
                 </label>
-                <input type="email" id="pay-email" class="modal-input" placeholder="">
+                <input type="email" id="lg-pass" class="modal-input" placeholder="">
+                <div id="lg-pass-alert" class="alert"></div>
+    
+    
                 <div class="modal-text">Hoặc đăng nhập với nhận dạng nhà cung cấp khác</div>
                 <div class="login-w-gg">
                     
@@ -544,7 +548,7 @@
                 </div>
                 <div class="modal-signup"><a href="#">Đăng ký tài khoản mới</a></div>
             </div>
-
+    
             <footer class="modal-footer">
                 <div class="save-pass">
                     <input type="checkbox" name="" id=""> Nhớ mật khẩu
@@ -554,7 +558,8 @@
                 </div>
             </footer>
         </div>
-        <!-- modal container -->
+        
+    </div>
     <script type="text/javascript" src="../script/header.js" ></script>
     <script type="text/javascript" src="../script/modal.js"></script>
 </body>

@@ -1,0 +1,60 @@
+.sign-up-page{
+    border: 1px solid #b6b2b2;
+    margin: auto;
+    padding: 20px;
+    width: 1200px;
+}
+.sign-up-page .h11{
+    margin-bottom: 30px;
+}
+.sign-up-page .modal-input{
+    height: 30px;
+}
+.sign-up-page label{
+    font-weight: bold;
+}
+.signup-gg{
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.signup-gg-plus{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    display: none;
+}
+.signup-gg:hover img{
+    opacity: 1;
+    border: 1px solid #b6b2b2;
+}
+.signup-gg:hover .signup-gg-plus{
+    display: block;
+}
+.signup-gg img{
+    height: 32px;
+    width: 32px;
+    opacity: 0.4;
+}
+.signup-button{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sign-up-page .modal-label{
+    margin-top: 22px;
+}
+.alert{
+    margin-top: 2px;
+    font-size: 13px;
+    color: #BF4D4D;
+}
+.color{
+    color: #BF4D4D; 
+}
