@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/vpp.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/ontop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,13 +60,13 @@
                            <div> <input type="email" placeholder="ID đơn hàng/Email"> <button class=""><i class="fa-solid fa-angle-right"></i></button></div>
                         </div>
                         <div class="login-w-gg">
-                            <img src="/img/trangchu/gg.png" alt="">
+                            <img src="../img/trangchu/gg.png" alt="">
                             Login with google
                         </div>
                         <div class="login-singup">
-                            <h3><a href="">Đăng Nhập</a></h3>
+                            <h3 class="user-login">Đăng Nhập</h3>
                             <span>hoặc</span>
-                                <h3><a href="">Đăng Kí</a></h3>
+                                <h3><a href="./singup.html">Đăng Kí</a></h3>
                         </div>
 
                     </div>
@@ -456,11 +457,56 @@
             </div>
         </div>
     </header>
+    <!-- modal -->
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header">
+               Đăng Nhập
+            </header>
+
+            <div class="modal-body"> 
+                <label for="signup-email" class="modal-label">
+                   
+                    E-MAIL <span style="color: #ff0000;">*</span>
+                </label>
+                <input type="text" id="signup-email" class="modal-input" placeholder="">
+
+                <label for="pay-email" class="modal-label modal-label-pass">
+                    <div>MẬT KHẨU <span style="color: #ff0000;">*</span></div>
+                    <div class="forgot-pass">
+                        <a href="#">Quên mật khẩu ?</a>
+                    </div>
+                </label>
+                <input type="email" id="pay-email" class="modal-input" placeholder="">
+                <div class="modal-text">Hoặc đăng nhập với nhận dạng nhà cung cấp khác</div>
+                <div class="login-w-gg">
+                    
+                    <img src="../img/trangchu/gg.png" alt=""> Login with google
+                </div>
+                <div class="modal-signup"><a href="#">Đăng ký tài khoản mới</a></div>
+            </div>
+
+            <footer class="modal-footer">
+                <div class="save-pass">
+                    <input type="checkbox" name="" id=""> Nhớ mật khẩu
+                </div>
+                <div class="modal-login">
+                    Đăng Nhập
+                </div>
+            </footer>
+        </div>
+        <!-- modal container -->
     <div>
         <div class="ontop">
          <a href="#top1"><i class="fa-solid ontopicon fa-arrow-up-from-bracket"></i></a>
         </div>
      </div>
-    <script type="text/javascript" src="/script/vpp.js"></script>
+     <script type="text/javascript" src="../script/modal.js"></script>
+    <script type="text/javascript" src="../script/header.js"></script>
+    <script type="text/javascript" src="../script/vpp.js"></script>
 </body>
 </html>

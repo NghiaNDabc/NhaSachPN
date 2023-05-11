@@ -10,6 +10,7 @@
     right: 40px;
     background-color: #f90;
     border-radius: 10px;
+    transition: all 0.5s ease;
 
 }
 .ontop a{
