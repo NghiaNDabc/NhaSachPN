@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    border: 1px solid #b6b2b2;
+    margin: auto;
+    padding: 20px;
+    width: 1200px;
+    margin-top: 15px;
+    margin-bottom: 15px ;
+}
+.content_tren{
+    display: flex;
+}
+.trai{
+    border: 1px solid #b6b2b2;
+    padding: 20px;
+    width: 40%;
+}
+.trai img{
+    width: 100%;
+    cursor: pointer;
+}
+.phai{
+    margin-left: 15px;
+    width: 60%;
+}
+.p1 h1{
+    font-size: 20px;
+}
+.p1, .p2{
+    border-bottom: 1px solid #ff6040;
+    margin: 0 0 10px 0;
+    padding: 9px 0 10px 0;
+    text-transform: none;
+}
+.p2{
+    display: flex;  
+    justify-content: flex-end;
+}
+.p2 h2{
+    font-size: 13px;
+    color: #000;
+}
+ .p2 h2:hover{
+    color: #ff9900;
+    cursor: pointer;
+}
+table td{
+    float: left;
+    padding: 6px 0;
+    margin-right: 10px;
+    color: #000;
+    font-size: 13px;
+}
+.soluong{
+    display: flex;
+}
+.ip input{
+    width: 55px;
+    height: 28px;
+    border:1px solid #f32900;
+    text-align: center;
+    outline: none;
+    margin-right: 5px;
+}
+.cong_tru{
+    display: flex;
+    flex-direction: column;
+}
+.cong_tru input{
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    border:1px solid #f32900;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.p4{
+    height: 70px;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart i{
+    display: inline-block;
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    margin: 0px 5px 0 0;
+    padding: 4px 0px 3px;
+    background: #f5f3f8;
+    border: 1px solid #dad3e5;
+    text-align: center;
+    cursor: pointer;
+}
+.heart{
+    line-height: 60px;
+    margin: 10px;
+}
+.heart i:hover{
+    color: #6AA84F;
+}
+.p4 button{
+    background-color: #6AA84F;
+    border: 0;
+    padding: 10px 10px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 15px;
+}
+.p4 button:hover {
+    background-color: #b63a21;
+    color: black;
+}
+.p5 button{
+    border-radius: 3px;
+    font-size: 12px;
+    height: 22px;
+    padding: 0 6px;
+    border: 0;
+    background: #1877f2;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.p5{
+    margin: 10px;
+}
+.chitiet{
+    margin-top: 15px;
+}
+.chitiet ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ff7a5f;
+}
+#mota{
+    color: #f90;
+    padding: 6px 21px 7px 18px;
+    background: #fff;
+    border: 1px solid #ff7a5f;
+    margin-bottom: -1px;
+}
+#danhgia{
+    background: #cc4125;
+    border: 1px solid #ff7a5f;
+    margin-bottom: -1px;
+    padding: 6px 21px 7px 18px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+#danhgia:hover{
+    background: rgba(255,153,0,0.8);
+    color: #000;
+
+}
+.nd{
+    line-height: 1.4;
+    margin: 15px;
+}
+.nd div strong span{
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.nd div span{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+}

@@ -213,3 +213,28 @@ span{
 .icon_left i:hover{
     color: #6AA84F;
 }
+/* page */
+.page{
+    margin: 10px 0;
+    padding: 0;
+    text-align: left;
+}
+.transfer{
+    display: inline-block;
+    margin: 0 5px 10px 15px;
+    padding: 5px 6px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font: 13px Roboto,sans-serif,sans-serif;
+    width: auto;
+    min-width: 30px;
+    border: solid 1px #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+.transfer:hover{
+    background-color: rgb(79, 141, 240);
+}

@@ -8,7 +8,7 @@ function showUser(){
 userIcon.addEventListener('click',showUser)
 
 var menu = document.querySelector(".js-header-menu");
-var menuPosition = menu.offsetTop;
+
 
 window.addEventListener("scroll", function() {
   if (window.pageYOffset >= 120) {
@@ -19,3 +19,25 @@ window.addEventListener("scroll", function() {
     menu.classList.add("header-menu");
   }
 });
+var ontop = document.querySelector(".ontop")
+
+window.addEventListener("scroll",function(){
+  if (window.pageYOffset >= 120) {
+    ontop.classList.add("active-ontop");
+  } else {
+    ontop.classList.remove("active-ontop");
+  }
+})
+function updatePosition() {
+  var currentPosition = window.pageYOffset;
+  currentPosition -= 60;
+  console.log(currentPosition);
+  if(currentPosition <= 0){
+    window.scrollTo(0, currentPosition)
+    return;
+  } 
+  window.scrollTo(0, currentPosition);
+  setTimeout(updatePosition, 10);
+}
+var button = document.querySelector('.ontop');
+button.addEventListener('click', updatePosition);

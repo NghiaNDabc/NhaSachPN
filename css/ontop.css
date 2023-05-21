@@ -1,0 +1,43 @@
+.ontop{
+    cursor: pointer;
+    position: fixed;
+    display: none;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: black;
+    bottom: 30px;
+    right: 40px;
+    background-color: #f90;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+
+}
+.ontop i{
+    color: black;
+    font-size: 30px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;;
+}
+.active-ontop{
+    display: block;
+}
+.ontop:hover{
+    transform: translateY(-10px);
+    /* animation: ontop ease .5; */
+   
+}
+
+@keyframes ontop{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+
