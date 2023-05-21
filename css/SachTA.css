@@ -89,55 +89,57 @@
     display: block;
 }
 
-    .phai{
+.right{
         width: 75%;
-    }
-    span{
+        margin-left: 15px;
+}
+span{
         font-size: 18px;
         font-weight: bold;
-    }
-    select{
+}
+select{
         margin-top: 20px;
-    }
-    .container_nd{
+        margin-left: 20px;
+}
+.container_nd{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    }
+}
     
-    .nd{
+.nd{
         width: 30%;
         border: 1px solid #dad3e5;
         background-color: #fff;
         margin: 10px;
         transition: all 0.5s ease
-    }
-    .nd:hover{
+}
+.nd:hover{
         border: 1px solid #ff9900;
         box-shadow: 0px 0px 5px 5px #dad3e5;
         
-    }
-    .img{
+}
+.img{
         text-align: center;
         cursor: pointer;
         margin-bottom: 10px;
         width: 100%;
-    }
-    .gia{
+ }
+.gia{
         margin-left: 10px;
-    }
-    .gia h2{
+}
+.gia h2{
        font-size: 16px;
        cursor: pointer;
-    }
-    .gia h2:hover{
+}
+.gia h2:hover{
         color: #ff9900  ;
-    }
-    .gia h1{
+}
+.gia h1{
         font-size: 18px;
         margin: 5px;
-    }
-    .button{
+}
+.button{
         width: 100%;
         background-color: #6AA84F;
         border: 0;
@@ -148,15 +150,15 @@
         cursor: pointer;
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-    .button>i{
+ }
+.button>i{
         margin-right: 5px;
-    }
-    .button:hover{
+}
+.button:hover{
         background-color: #b63a21;
         color: black;
-    }
-    .icon_left{
+}
+.icon_left{
         display: flex;
         justify-content: flex-end;  
         font-size: 13px;  
@@ -164,9 +166,9 @@
         margin-right: 10px;
         color: #434343;
         cursor: pointer;
-    }
+}
     
-    .icon_left i{
+.icon_left i{
         display: inline-block;
         font-size: 20px;
         width: 30px;
@@ -176,9 +178,31 @@
         background: #f5f3f8;
         border: 1px solid #dad3e5;
         text-align: center;
-    }
-    
-    .icon_left i:hover{
+}
+
+.icon_left i:hover{
         color: #6AA84F;
-    }
-   
+}
+/* So trang */
+.page{
+    margin: 10px 0;
+    padding: 0;
+    text-align: left;
+}
+.transfer{
+    display: inline-block;
+    margin: 0 5px 10px 15px;
+    padding: 5px 6px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font: 17px Roboto,sans-serif,sans-serif;
+    width: auto;
+    min-width: 30px;
+    border: solid 1px #000;
+}
+.transfer:hover{
+    background-color: rgb(79, 141, 240);
+}  
