@@ -28,3 +28,16 @@ window.addEventListener("scroll",function(){
     ontop.classList.remove("active-ontop");
   }
 })
+function updatePosition() {
+  var currentPosition = window.pageYOffset;
+  currentPosition -= 60;
+  console.log(currentPosition);
+  if(currentPosition <= 0){
+    window.scrollTo(0, currentPosition)
+    return;
+  } 
+  window.scrollTo(0, currentPosition);
+  setTimeout(updatePosition, 10);
+}
+var button = document.querySelector('.ontop');
+button.addEventListener('click', updatePosition);
