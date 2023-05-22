@@ -57,3 +57,13 @@ setInterval(nextSlide,2000);
 //     slider.style.transform = 'translateX(0)';
 //   }
 // }, 5000);
+
+var myDivs = document.querySelectorAll(".nd")
+
+// Gán sự kiện click cho div
+ function ChuyenHuong() {
+  window.location.href = './html/chitietsp.html';
+}
+for (const Div of myDivs){
+    Div.addEventListener('click',ChuyenHuong)
+}
