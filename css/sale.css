@@ -30,6 +30,7 @@
 .left {
     width: 25%;
     display: block;
+    
 }
 
 .menu>ul {
@@ -37,6 +38,7 @@
     list-style-type: none;
     background-color: #cc4125;
     height: auto;
+    z-index: 20;
 }
 
 .cha1>a {
