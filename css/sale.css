@@ -38,7 +38,10 @@
     list-style-type: none;
     background-color: #cc4125;
     height: auto;
-    z-index: 20;
+    z-index: 30;
+}
+.menu>ul li{
+    z-index: 30;
 }
 
 .cha1>a {
@@ -143,7 +146,6 @@
     left: auto;
     right: 5px;
     position: absolute;
-    z-index: 100;
     border: none;
     font-family: vs-icon;
     font-style: normal;
